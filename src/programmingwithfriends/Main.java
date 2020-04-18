@@ -14,6 +14,7 @@ public class Main extends javax.swing.JFrame {
     String textFile="";
     public Main() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     public String openFile(){
